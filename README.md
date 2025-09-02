@@ -479,9 +479,7 @@ class LakeAreaPredictor:
 
         return perf_df
 
-    # 其余 predict_for_lake / predict_for_dataset / validate / _plot_validation / plot_future_tla 方法保持不变
-    # ...（略，和您原始代码一致，这里就不全部重复了）
-
+##################
 
 logger.info("\n初始化预测器")
 predictor = LakeAreaPredictor(config)
